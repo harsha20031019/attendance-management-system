@@ -10,7 +10,7 @@
 
 ![image](https://github.com/harsha20031019/attendance-management-system/assets/83836751/d923a2ba-4f57-4af9-87d1-291c7f1ae91e)
 
-<p>The students can view their attendance in all subjects by clicking on the view attendance button</p>
+<p>The students can view their attendance in all subjects by clicking on the my attendance button</p>
 
 ![image](https://github.com/harsha20031019/attendance-management-system/assets/83836751/ffc8c261-4444-4769-8479-c45577a2fb98)
 
