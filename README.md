@@ -22,5 +22,8 @@
 
 ![image](https://github.com/harsha20031019/attendance-management-system/assets/83836751/9fdd2c41-3a52-457d-b28d-8c7b538ec52b)
 
+<H2>ADMIN PAGE</H2>
+<P>This is the admin page where the admin can add new faculty or students</P>
 
+![image](https://github.com/harsha20031019/attendance-management-system/assets/83836751/95e84880-81c6-4979-8e17-c00f58e39c3a)
 
