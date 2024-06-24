@@ -1,0 +1,346 @@
+@media screen and (min-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: arial;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right top, #36d1dc, #5b86e5);
+    background-color: aliceblue;
+    background-attachment: fixed !important;
+  }
+
+  nav {
+    background: transparent;
+    padding: 15px 4px;
+  }
+
+  span {
+    font-size: 30px;
+    font-family: arial;
+    padding: 0px 17px;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border: 2px;
+    border-radius: 12px;
+    color: rgb(12, 3, 57);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #pp {
+    padding: 15px;
+    background: transparent;
+    font-family: -webkit-pictograph;
+    font-size: 25px;
+  }
+
+  #p {
+    margin: auto;
+    font-size: 18px;
+    color: red;
+    background-color: rgb(218, 213, 213);
+    width: fit-content;
+    border: 2px solid rgb(181, 160, 255);
+    border-radius: 17px;
+    padding: 7px;
+  }
+
+  @keyframes containeranimation {
+    from {
+      left: -1000px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+  li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: transparent;
+  }
+  .container {
+    display: block;
+    flex-direction: column;
+    border: 3px;
+    border-radius: 13px;
+    padding: 18px;
+    text-align: center;
+    font-size: large;
+    width: fit-content;
+    margin: 63px auto;
+    background-color: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    position: relative;
+    animation-name: containeranimation;
+    animation-duration: 1s;
+  }
+
+  table,
+  td {
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 38px;
+    border-spacing: 30px;
+    padding: 3px;
+    width: max-content;
+    color: rgb(12, 3, 57);
+  }
+
+  td {
+    font-size: 21px;
+    padding: 7px;
+  }
+
+  .container div {
+    padding: 3px;
+  }
+
+  .btn {
+    font-family: cursive;
+    background-color: rgb(12, 3, 57);
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    border-radius: 30px;
+    margin: 13px;
+    font-size: 20px;
+    padding: 4px 20px;
+  }
+
+  #select {
+    border-radius: 11px;
+    font: inherit;
+    font-size: 20px;
+    padding: 2px 12px;
+    outline: none;
+  }
+
+  input {
+    border-radius: 11px;
+    font: inherit;
+    font-size: 17px;
+    padding: 2px 5px;
+    outline: none;
+    width: 115px;
+    border: none;
+    text-align: center;
+  }
+
+  a {
+    border: 2px;
+    margin: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(12, 3, 57);
+    padding: 2px 14px;
+    border-radius: 30px;
+    background-color: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    font-family: fangsong;
+    position: block;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #191276;
+    background: #9d9fa0;
+    transition: 1s;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: #000000;
+    background: #0694db;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: arial;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right top, #36d1dc, #5b86e5);
+    background-color: aliceblue;
+    background-attachment: fixed !important;
+  }
+
+  nav {
+    background: transparent;
+    padding: 15px 4px;
+  }
+
+  span {
+    font-size: 30px;
+    font-family: arial;
+    padding: 0px 17px;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border: 2px;
+    border-radius: 12px;
+    color: rgb(12, 3, 57);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #pp {
+    padding: 15px;
+    background: transparent;
+    font-family: -webkit-pictograph;
+    font-size: 25px;
+  }
+
+  #p {
+    margin: auto;
+    font-size: 18px;
+    color: red;
+    background-color: rgb(218, 213, 213);
+    width: fit-content;
+    border: 2px solid rgb(181, 160, 255);
+    border-radius: 17px;
+    padding: 7px;
+  }
+
+  @keyframes containeranimation {
+    from {
+      left: -1000px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+
+  .container {
+    display: block;
+    flex-direction: column;
+    border: 3px;
+    border-radius: 13px;
+    padding: 18px;
+    text-align: center;
+    font-size: large;
+    width: fit-content;
+    margin: 63px auto;
+    background-color: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    position: relative;
+    animation-name: containeranimation;
+    animation-duration: 1s;
+  }
+
+  table,
+  td {
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 38px;
+    border-spacing: 30px;
+    padding: 3px;
+    width: max-content;
+    color: rgb(12, 3, 57);
+  }
+
+  td {
+    font-size: 21px;
+    padding: 7px;
+  }
+
+  .container div {
+    padding: 3px;
+  }
+
+  .btn {
+    font-family: cursive;
+    background-color: rgb(12, 3, 57);
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    border-radius: 30px;
+    margin: 13px;
+    font-size: 20px;
+    padding: 4px 20px;
+  }
+
+  #select {
+    border-radius: 11px;
+    font: inherit;
+    font-size: 20px;
+    padding: 2px 12px;
+    outline: none;
+  }
+
+  input {
+    border-radius: 11px;
+    font: inherit;
+    font-size: 17px;
+    padding: 2px 5px;
+    outline: none;
+    width: 115px;
+    border: none;
+    text-align: center;
+  }
+
+  a {
+    border: 2px;
+    margin: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(12, 3, 57);
+    padding: 2px 14px;
+    border-radius: 30px;
+    background-color: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    font-family: fangsong;
+    position: block;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #191276;
+    background: #9d9fa0;
+    transition: 1s;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: #000000;
+    background: #0694db;
+  }
+}

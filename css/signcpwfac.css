@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to right top, #36d1dc, #5b86e5);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed !important;
+}
+
+nav {
+  background-color: #1c2023;
+  padding: 15px 4px;
+}
+
+a {
+  border: 2px outset #0296e6;
+  margin: 3px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 2px 14px;
+  border-radius: 30px;
+  background: #186198;
+  font-family: fangsong;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #191276;
+  background: #9d9fa0;
+  transition: 1s;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000000;
+  background: #0694db;
+}
+
+.container {
+  display: block;
+  flex-direction: column;
+  border: 3px solid white;
+  border-radius: 13px;
+  padding: 18px;
+  text-align: center;
+  font-size: large;
+  width: fit-content;
+  margin: 63px auto;
+  background-color: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  font-family: serif;
+}
+
+table,
+td {
+  /* border: 2px solid red; */
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 38px;
+  border-spacing: 30px;
+  padding: 3px;
+  width: max-content;
+}
+
+td {
+  font-size: 19px;
+  padding: 7px 9px;
+  font-family: inherit;
+}
+
+input {
+  border-radius: 11px;
+  font: inherit;
+  font-size: 18px;
+  padding: 2px 7px;
+  outline: none;
+  width: fit-content;
+  border: none;
+}
+
+.btn {
+  font-family: cursive;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 30px;
+  margin: 13px;
+  font-size: 20px;
+  padding: 4px 20px;
+}
+
+span {
+  font-size: 21px;
+  font-family: cursive;
+  padding: 0px 17px;
+  background: #226ca8ba;
+  border: 2px inset lightgrey;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #000000;
+  display: block;
+  margin-top: 5px;
+  font-size: 28px;
+  padding: 5px 25px;
+  font-family: initial;
+}
+
+p {
+  font-size: 22px;
+  background: wheat;
+  color: green;
+  font-weight: bold;
+  width: fit-content;
+  margin: 0px auto;
+  padding: 0px 7px;
+  border-radius: 10px;
+  text-decoration: none;
+  outline: none;
+}

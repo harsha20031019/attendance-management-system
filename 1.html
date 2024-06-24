@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text">
+    <p id="date"></p>
+    <script>
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1;
+        var yyyy = today.getFullYear();
+        console.log(today.getDate());
+        console.log(today.getMonth() + 1);
+        console.log(today.getFullYear());
+        if (dd < 10) {
+            dd = "0" + dd;
+        }
+        if (mm < 10) {
+            mm = "0" + mm;
+        }
+        document.getElementById("date").innerHTML = dd + ' - ' + mm + ' - ' + yyyy;
+    </script>
+</body>
+
+</html>
+
+SET new.percentage1 = new.18CS51/new.Total1*100, new.percentage2 = new.18CS52/new.Total2*100, new.percentage3 = new.18CS53/new.Total3*100, new.percentage4 = new.18CS54/new.Total4*100, new.percentage5 = new.18CS55/new.Total5*100, new.Totalpercentage =
+(new.percentage1+new.percentage2+ new.percentage3+new.percentage4+new.percentage5) /5
