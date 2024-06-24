@@ -10,6 +10,11 @@
 
 ![image](https://github.com/harsha20031019/attendance-management-system/assets/83836751/d923a2ba-4f57-4af9-87d1-291c7f1ae91e)
 
+<p>The students can view their attendance in all subjects by clicking on the view attendance button</p>
+
+![image](https://github.com/harsha20031019/attendance-management-system/assets/83836751/ffc8c261-4444-4769-8479-c45577a2fb98)
+
+
 <H2>FACULTY PAGE</H2>
 <P>This is the faculty page where the faculty details are visible. The faculty can take attendance by selecting the subject and class details, the faculty can also view the students percentage of respective subjects by selecting the appropriate options</P>
 
